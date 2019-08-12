@@ -1,6 +1,9 @@
 # react-typewriter-hook
 > ⌨️   Use react hooks for typing effect easily
 
+## Original
+See [here](https://github.com/haowen737/react-typewriter-hook/)
+
 ## Sample
 <img src="https://github.com/haowen737/react-typewriter-hook/blob/master/docs/example.gif" alt="examplegif" width="620">
 
