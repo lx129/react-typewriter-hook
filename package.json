@@ -26,5 +26,8 @@
     "@types/react": "^16.7.20",
     "typescript": "^3.2.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
 }
