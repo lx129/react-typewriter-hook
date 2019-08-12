@@ -30,3 +30,18 @@ function MagicWriter(word) {
 - Typewriter write down your word and waiting for the word change
 - Typewriter once accept the new word, it erases the last word, and write down next
 
+## Options
+
+`useTypewriter` supports some optional configuration options. Use them as follows:
+```js
+const typing = useTypewrite(word, {
+  duration: 1000,
+  // etc
+})
+```
+
+
+| Option | Type | Description | Default Value |
+| ----   | ---- | ----        | ----          |
+| interval | number | The interval between each 'stroke' of a letter, in milliseconds. Overidden by `duration` if present | A random number |
+| duration | number | The total duration to spend typing, in milliseconds. If provided, the duration is evenly divided between the total number of letters in the provided string. Overrides `interval` | |
