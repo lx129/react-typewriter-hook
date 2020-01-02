@@ -1,19 +1,8 @@
-# react-typewriter-hook
-> ⌨️   Use react hooks for typing effect easily
-
-## Original
-See [here](https://github.com/haowen737/react-typewriter-hook/)
-
-## Sample
-<img src="https://github.com/haowen737/react-typewriter-hook/blob/master/docs/example.gif" alt="examplegif" width="620">
 
 ## Install
 ```sh
-npm i react-typewriter-hook --save
+npm i @lx/react-typewriter-hook --save
 ```
-
-## Example
-View example at [codesandbox](https://codesandbox.io/s/lr3q0q32vq)
 
 ## Usage
 ```js
@@ -23,24 +12,13 @@ View example at [codesandbox](https://codesandbox.io/s/lr3q0q32vq)
 import useTypewriter from "react-typewriter-hook"
 
 function MagicWriter(word) {
-  const typing = useTypewriter(word)
+  const typing = useTypewrite(word, {
+    duration: 1000,
+    // etc
+  })
   return typing
 }
 
-```
-## What happens after call useTypewriter hook
-- Typewriter accept the word, ready to write
-- Typewriter write down your word and waiting for the word change
-- Typewriter once accept the new word, it erases the last word, and write down next
-
-## Options
-
-`useTypewriter` supports some optional configuration options. Use them as follows:
-```js
-const typing = useTypewrite(word, {
-  duration: 1000,
-  // etc
-})
 ```
 
 
