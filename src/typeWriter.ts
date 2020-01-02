@@ -1,10 +1,10 @@
 export default class TypeWritter {
-  private memoWord: string | undefined;
-  private nextWord: string | undefined;
-  private word: string | undefined;
+  private memoWord: string;
+  private nextWord: string;
+  private word: string;
   private eventQueue: string[];
   private dummyQueue: Array<string | undefined>;
-  private erasing: boolean | undefined;
+  private erasing: boolean;
 
   constructor(
   ) {

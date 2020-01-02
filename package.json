@@ -1,6 +1,6 @@
 {
   "name": "@xiaguochang/react-typewriter-hook",
-  "version": "1.0.1",
+  "version": "1.0.1-beta.1",
   "description": "⌨️ Use react hooks for typing effect easily",
   "main": "build/index.js",
   "files": [
