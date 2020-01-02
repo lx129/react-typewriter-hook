@@ -1,6 +1,6 @@
 {
-  "name": "@lx/react-typewriter-hook",
-  "version": "1.0.0",
+  "name": "@xiaguochang/react-typewriter-hook",
+  "version": "1.0.1",
   "description": "⌨️ Use react hooks for typing effect easily",
   "main": "build/index.js",
   "files": [
@@ -10,10 +10,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lx129/react-typewriter-hook.git"
-  },
   "keywords": [
     "react-hooks",
     "typewriter",
@@ -21,9 +17,6 @@
   ],
   "author": "lx129 <504705104@qq.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lx129/react-typewriter-hook/issues"
-  },
   "devDependencies": {
     "@types/react": "^16.7.20",
     "typescript": "^3.2.2"
