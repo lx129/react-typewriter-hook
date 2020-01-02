@@ -20,7 +20,7 @@
     "react"
   ],
   "author": "lx129 <504705104@qq.com>",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/lx129/react-typewriter-hook/issues"
   },
